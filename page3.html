@@ -278,225 +278,111 @@
         <div class="row">
             <div class="col-12 col-lg-12  mt-3">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
-                        <div class="row">
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card bg-primary" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-basket icons card-liner-icon mt-2 text-white"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title text-white">2</h2>
-                                                <h6 class="card-liner-subtitle text-white">Waiting authorization</h6>
-                                                <h6 class="card-liner-subtitle text-white">EPON: 0</h6>
-                                                <h6 class="card-liner-subtitle text-white">GPON:0</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_primary_chart"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-user icons card-liner-icon mt-2"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">2</h2>
-                                                <h6 class="card-liner-subtitle">Online</h6>
-                                                <h6 class="card-liner-subtitle">Total authorized: 0</h6>
-                                            </div>
-                                        </div>
-                                        <span class="bg-primary card-liner-absolute-icon text-white card-liner-small-tip">+4.8%</span>
-                                        <div id="apex_today_visitors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3  mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-bag icons card-liner-icon mt-2"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">0</h2>
-                                                <h6 class="card-liner-subtitle">Total Offline</h6>
-                                                <h6 class="card-liner-subtitle">PwrFail: 0</h6>
-                                                <h6 class="card-liner-subtitle">Los:0</h6>
-                                                <h6 class="card-liner-subtitle">N/A:9</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_today_sale"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <span class="card-liner-icon mt-1">$</span>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">$4,390</h2>
-                                                <h6 class="card-liner-subtitle">Total Profit</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_today_profit"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-8  mt-3">
+                    <div class="col-12 col-lg-12 mt-3">
                         <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Horizontal Form</h4>
+                            </div>
                             <div class="card-content">
                                 <div class="card-body">
-                                    <div id="apex_analytic_chart" class="height-500"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group row">
+                                                    <label for="username" class="col-sm-2 col-form-label">BOARD</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="username" placeholder="" value="2">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="username" class="col-sm-2 col-form-label">PORT</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="username" placeholder="" value="2">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="username" class="col-sm-2 col-form-label">SN</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="username" placeholder="" value="ZTEGCA52294C ">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="username" class="col-sm-2 col-form-label">ONU type</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="username" placeholder="Username" value=" ZTE-F600">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="email" class="col-sm-2 col-form-label">ONU mode</label>
+                                                    <div class="col-sm-5">
+                                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                                            <input type="checkbox" class="custom-control-input" checked="checked" id="chksecondary">
+                                                            <label class="custom-control-label checkbox-secondary" for="chksecondary">Route</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-5">
+                                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                                            <input type="checkbox" checked="checked" class="custom-control-input" id="primary">
+                                                            <label class="custom-control-label checkbox-primary" for="primary">Brindging</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="email" class="col-sm-2 col-form-label">User VLAN-ID</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="email" placeholder="" value="1200-PPPoE">
+                                                    </div>
+                                                </div>
 
-                    <div class="col-12  col-md-4 mt-3">
-                        <div style="height: 100%!important;" class="card border-bottom-0">
-                            <div class="card-content border-bottom border-primary border-w-5" style="height: 100%!important;">
-                                <div class="card-body p-4">
-                                    <div class="d-flex">
-                                        <img src="https://image.made-in-china.com/2f0j00YfAGomwJkpkW/Best-Price-Original-Gpon-Epon-Olt-for-Zte-Zxa10-Olt-C300.jpg" alt="author" width="100%"
-                                             class="">
+                                                <div class="form-group row">
+                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Zone</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputPassword3" placeholder="" value="Zone 1">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">ODB(Splitter)</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputPassword3" placeholder="" value="None">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Name</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputPassword3" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Address of comment</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputPassword3" placeholder="">
+                                                    </div>
+                                                </div>
 
-                                    </div>
-                                </div>
+                                                <div class="form-group row">
 
-                                <div class="card-footer">
-                                    <div class="media-body align-self-center pl-3">
-                                        <span class="mb-0 font-w-600">OLD ZTE-C300</span><br>
-                                        <p class="mb-0 font-w-500 tx-s-12">San Francisco, California, USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                                    <div class="col-sm-12">
 
+                                                        <label class="chkbox"> Use GPS
+                                                            <input name="gridCheck1" value="gridCheck1" class="form-check-input" type="checkbox">
+                                                            <span class="checkmark"></span>
+                                                        </label>
 
+                                                    </div>
+                                                </div>
 
-                    <div class="col-12  col-lg-8 mt-3">
-                        <div style="height: 100%!important;" class="card">
-                            <div class="card-header  justify-content-between align-items-center">
-                                <h6 class="card-title">Visits by Countries</h6>
-                            </div>
-                            <div class="card-body table-responsive p-0">
-
-                                <table class="table font-w-600 mb-0">
-                                    <thead>
-                                    <tr>
-                                        <th>Country</th>
-                                        <th>Visits</th>
-                                        <th>Sessions</th>
-                                        <th>Page View</th>
-                                        <th>Stats</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="zoom">
-                                        <td>France</td>
-                                        <td class="text-success">1,12,51,520 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state1"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>United States</td>
-                                        <td class="text-success">81,400,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state2"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>China</td>
-                                        <td class="text-success">62,700,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state3"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Spain</td>
-                                        <td class="text-success">57,600,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state4"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Italy</td>
-                                        <td class="text-success">56,700,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state5"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>United Kingdom</td>
-                                        <td class="text-success">28,400,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state6"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Malaysia</td>
-                                        <td class="text-success">24,900,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state7"></div></td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-12 col-lg-4 mt-3">
-                        <div style="height: 100%!important;" class="card">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div id="world-map-gdp" class="w-100 " style="height:180px;"></div>
-                                    <div class="table-responsive">
-                                        <table class="table table-borderless pick-table mb-0">
-                                            <thead>
-                                            <tr>
-                                                <th>States</th>
-                                                <th  class="text-right">Visits</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="zoom">
-                                                <td>California</td>
-                                                <td class="text-right">80,200</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Texas</td>
-                                                <td class="text-right">78,410</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Wyoming</td>
-                                                <td class="text-right">162,050</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Florida</td>
-                                                <td class="text-right">187,792</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>New York</td>
-                                                <td class="text-right">13,087</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                                <div class="form-group row">
+                                                    <div class="col-sm-12">
+                                                        <button type="submit" class="btn btn-primary">Save</button>   <button type="submit" class="btn btn-outline-danger">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 

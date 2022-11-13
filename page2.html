@@ -81,13 +81,13 @@
                 <ul class="ml-auto p-0 m-0 list-unstyled d-flex top-icon h-100">
                     <li class="d-inline-block align-self-center  d-block d-lg-none">
                         <a href="#" class="nav-link mobilesearch" data-toggle="dropdown" aria-expanded="false"><i
-                                    class="icon-magnifier h4"></i>
+                                class="icon-magnifier h4"></i>
                         </a>
                     </li>
 
                     <li class="dropdown align-self-center">
                         <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false"><i
-                                    class="icon-reload h4"></i>
+                                class="icon-reload h4"></i>
                             <span class="badge badge-default"> <span class="ring">
                                         </span><span class="ring-point">
                                         </span> </span>
@@ -134,13 +134,13 @@
                             </li>
 
                             <li><a class="dropdown-item text-center py-2" href="#"> See All Tasks <i
-                                            class="icon-arrow-right pl-2 small"></i></a></li>
+                                        class="icon-arrow-right pl-2 small"></i></a></li>
                         </ul>
 
                     </li>
                     <li class="dropdown align-self-center d-inline-block">
                         <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false"><i
-                                    class="icon-bell h4"></i>
+                                class="icon-bell h4"></i>
                             <span class="badge badge-default"> <span class="ring">
                                         </span><span class="ring-point">
                                         </span> </span>
@@ -187,7 +187,7 @@
                             </li>
 
                             <li><a class="dropdown-item text-center py-2" href="#"> Read All Message <i
-                                            class="icon-arrow-right pl-2 small"></i></a></li>
+                                        class="icon-arrow-right pl-2 small"></i></a></li>
                         </ul>
                     </li>
                     <li class="dropdown user-profile align-self-center d-inline-block">
@@ -278,218 +278,89 @@
         <div class="row">
             <div class="col-12 col-lg-12  mt-3">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
-                        <div class="row">
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card bg-primary" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-basket icons card-liner-icon mt-2 text-white"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title text-white">2</h2>
-                                                <h6 class="card-liner-subtitle text-white">Waiting authorization</h6>
-                                                <h6 class="card-liner-subtitle text-white">EPON: 0</h6>
-                                                <h6 class="card-liner-subtitle text-white">GPON:0</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_primary_chart"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-user icons card-liner-icon mt-2"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">2</h2>
-                                                <h6 class="card-liner-subtitle">Online</h6>
-                                                <h6 class="card-liner-subtitle">Total authorized: 0</h6>
-                                            </div>
-                                        </div>
-                                        <span class="bg-primary card-liner-absolute-icon text-white card-liner-small-tip">+4.8%</span>
-                                        <div id="apex_today_visitors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3  mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <i class="icon-bag icons card-liner-icon mt-2"></i>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">0</h2>
-                                                <h6 class="card-liner-subtitle">Total Offline</h6>
-                                                <h6 class="card-liner-subtitle">PwrFail: 0</h6>
-                                                <h6 class="card-liner-subtitle">Los:0</h6>
-                                                <h6 class="card-liner-subtitle">N/A:9</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_today_sale"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-sm-3 mt-3">
-                                <div class="card" style="height: 100%!important;">
-                                    <div class="card-body">
-                                        <div class='d-flex px-0 px-lg-2 py-2 align-self-center'>
-                                            <span class="card-liner-icon mt-1">$</span>
-                                            <div class='card-liner-content'>
-                                                <h2 class="card-liner-title">$4,390</h2>
-                                                <h6 class="card-liner-subtitle">Total Profit</h6>
-                                            </div>
-                                        </div>
-                                        <div id="apex_today_profit"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-8  mt-3">
+
+                    <div class="col-12 mt-4">
                         <div class="card">
+
                             <div class="card-content">
                                 <div class="card-body">
-                                    <div id="apex_analytic_chart" class="height-500"></div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+
+                                                <div class="form-row">
+
+                                                    <div class="form-group col-md-4">
+                                                        <label for="inputState">OLTs</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>C320</option>
+                                                            <option>...</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group col-md-12">
+                                                        <button type="submit" class="btn btn-primary">Refresh</button>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12  col-md-4 mt-3">
-                        <div style="height: 100%!important;" class="card border-bottom-0">
-                            <div class="card-content border-bottom border-primary border-w-5" style="height: 100%!important;">
-                                <div class="card-body p-4">
-                                    <div class="d-flex">
-                                        <img src="https://image.made-in-china.com/2f0j00YfAGomwJkpkW/Best-Price-Original-Gpon-Epon-Olt-for-Zte-Zxa10-Olt-C300.jpg" alt="author" width="100%"
-                                             class="">
-
-                                    </div>
-                                </div>
-
-                                <div class="card-footer">
-                                    <div class="media-body align-self-center pl-3">
-                                        <span class="mb-0 font-w-600">OLD ZTE-C300</span><br>
-                                        <p class="mb-0 font-w-500 tx-s-12">San Francisco, California, USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-12  col-lg-8 mt-3">
-                        <div style="height: 100%!important;" class="card">
+                    <div class="col-12 col-sm-12 mt-3">
+                        <div class="card">
                             <div class="card-header  justify-content-between align-items-center">
-                                <h6 class="card-title">Visits by Countries</h6>
+                                <h4 class="card-title">C320</h4>
+                                <span class="text-primary">GPON ONUs</span>
                             </div>
-                            <div class="card-body table-responsive p-0">
-
-                                <table class="table font-w-600 mb-0">
-                                    <thead>
-                                    <tr>
-                                        <th>Country</th>
-                                        <th>Visits</th>
-                                        <th>Sessions</th>
-                                        <th>Page View</th>
-                                        <th>Stats</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="zoom">
-                                        <td>France</td>
-                                        <td class="text-success">1,12,51,520 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state1"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>United States</td>
-                                        <td class="text-success">81,400,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state2"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>China</td>
-                                        <td class="text-success">62,700,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state3"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Spain</td>
-                                        <td class="text-success">57,600,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state4"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Italy</td>
-                                        <td class="text-success">56,700,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state5"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>United Kingdom</td>
-                                        <td class="text-success">28,400,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state6"></div></td>
-                                    </tr>
-                                    <tr class="zoom">
-                                        <td>Malaysia</td>
-                                        <td class="text-success">24,900,000 <i class="ion ion-arrow-graph-up-right"></i></td>
-                                        <td class="text-danger">3,23,55,479 <i class="ion ion-arrow-graph-down-right"></i></td>
-                                        <td class="text-info">4,23,27,346</td>
-                                        <td class="text-right"><div id="analitic_state7"></div></td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table layout-primary">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">BOARD </th>
+                                            <th scope="col">PORT</th>
+                                            <th scope="col">SN</th>
+                                            <th scope="col">Authorize</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>2</td>
+                                            <td>ZTEGCA52294C</td>
+                                            <td><a href="#">Authorize</a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
 
-
                     </div>
 
-                    <div class="col-12 col-lg-4 mt-3">
-                        <div style="height: 100%!important;" class="card">
+                    <div class="col-12 mt-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="card-title">Saved ONUs forlater authorization</h6>
+                            </div>
                             <div class="card-content">
                                 <div class="card-body">
-                                    <div id="world-map-gdp" class="w-100 " style="height:180px;"></div>
-                                    <div class="table-responsive">
-                                        <table class="table table-borderless pick-table mb-0">
-                                            <thead>
-                                            <tr>
-                                                <th>States</th>
-                                                <th  class="text-right">Visits</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="zoom">
-                                                <td>California</td>
-                                                <td class="text-right">80,200</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Texas</td>
-                                                <td class="text-right">78,410</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Wyoming</td>
-                                                <td class="text-right">162,050</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>Florida</td>
-                                                <td class="text-right">187,792</td>
-                                            </tr>
-                                            <tr class="zoom">
-                                                <td>New York</td>
-                                                <td class="text-right">13,087</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+
+
+                                                <button type="submit" class="btn btn-primary">Add ONUs for later authorization</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
